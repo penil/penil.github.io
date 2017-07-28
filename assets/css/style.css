@@ -167,11 +167,8 @@ header .contact-container .contact-list li span {
   color: #666 ;
   font-size: 16px ;
 }
-.project h3::after {
-  content: ' - ' ;
-}
 .project .detail {
-  display: inline ;
+  display: block ;
   font-size: 14px ;
 }
 .project .tags {
