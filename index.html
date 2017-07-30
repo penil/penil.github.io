@@ -7,7 +7,7 @@
 
     <title>Résumé</title>
 
-    <link rel="shortcut icon" href="./assets/img/favicon/favicon.ico">
+    <!--link rel="shortcut icon" href="./assets/img/favicon/favicon.ico"-->
 
     <!-- Noto Sans KR-Hestia -->
     <link rel="stylesheet" href="./assets/noto-fonts/stylesheets/NotoSansKR-Hestia.css">
@@ -40,13 +40,14 @@
         <div class="contact-container">
           <ul class="contact-list">
             <li>
-              <a href="tel:01000000000">+82. 010. 2559. 0580</a>
+              <a href="tel:01025590580">+82. 010. 2559. 0580</a>
               <span><i class="fa fa-phone" aria-hidden="true"></i></span>
             </li>
             <li>
               <a href="mailto:penilalian@email.com">penilalian@email.com</a>
               <span><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
             </li>
+            <!--
             <li>
               <a href="#" target="_blank">your homepage address</a>
               <span><i class="fa fa-globe" aria-hidden="true"></i></span>
@@ -55,6 +56,7 @@
               <a href="https://github.com/dhparkdh/resume-for-web-developer" target="_blank">your github address</a>
               <span><i class="fa fa-github" aria-hidden="true"></i></span>
             </li>
+          -->
           </ul>
         </div>
       </header><!-- header -->
@@ -83,7 +85,7 @@
                   <h4 class="company">Web Back-End Developer, PHP</h4>
                   <span class="date">2015.10 ~ 재직중</span>
                   <p class="detail">
-                    백엔드 개발
+                    포잉 서비스 백엔드 개발
                   </p>
                 </li>
                 <li>
@@ -91,7 +93,7 @@
                   <h4 class="company">Web Developer, PHP</h4>
                   <span class="date">2011.11 ~ 2015.09</span>
                   <p class="detail">
-                    서비스 주문/결제 개발, 딜 등록/수정 페이지 개발
+                    서비스 주문/결제 개발, 딜 관리 백엔드 개발
                   </p>
                 </li>
                 <li>
@@ -99,7 +101,7 @@
                   <h4 class="company">Web Developer, Java</h4>
                   <span class="date">2009.07 ~ 2011.11</span>
                   <p class="detail">
-                    검색엔진 솔루션을 이용한 통합검색 구축
+                    외주 업체로 검색엔진 솔루션업체인 와이즈넛에 상주하여 공공기관 통합검색 구축
                   </p>
                 </li>
               </ul>
@@ -121,43 +123,163 @@
                 </li>
                 -->
                 <li>
+                  <div class="project-title">트러스트어스</div>
                   <h3><a href="#" target="_blank">포잉 검색</a></h3>
                   <div class="detail">
-                    Elasticseach 검색엔진을 통한 포잉 서비스 검색 처리 및 ELK 구축
+                    Elasticseach 검색엔진으로 포잉 서비스 검색 개선 및 ELK 구성으로 로그모니터링 구축
                   </div>
-                  <p class="tags">#HTML5 #CSS3 #Noto</p>
+                  <p class="tags">PHP, Codeigniter, Elasticsearch, Filebeat, Logstash, Kibana</p>
                 </li>
                 <li>
-                  <h3><a href="#" target="_blank">Project Name</a></h3>
+                  <h3><a href="#" target="_blank">매장 전용예약</a></h3>
                   <p class="detail">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    포잉 서비스가 아닌 매장에서 예약을 바로 할 수 있도록 하는 서비스
                   </p>
-                  <p class="tags">#hash #tags</p>
+                  <p class="tags">PHP, Codeigniter, jQuery, bootstrap</p>
                 </li>
                 <li>
-                  <h3><a href="#" target="_blank">Project Name</a></h3>
+                  <h3><a href="#" target="_blank">정산 내역서</a></h3>
                   <p class="detail">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    포잉에서 판매된 매출을 제휴 레스토랑에게 정산내역을 보여주기위한 통계 리포트 개발
                   </p>
-                  <p class="tags">#hash #tags</p>
+                  <p class="tags">PHP, Codeigniter, jQuery, bootstrap</p>
+                </li>
+                <li>
+                  <h3><a href="#" target="_blank">포잉 결재 개선</a></h3>
+                  <p class="detail">
+                    기존 PG사 모듈을 위해 ActiveX를 설치해야하는 번거로운 절차를 없애고 한번의 카드등록으로 간편하게 결제할 수 있도록 개선
+                  </p>
+                  <p class="tags">PHP, Codeigniter, nicepay, jQuery, bootstrap</p>
+                </li>
+                <li>
+                  <h3><a href="#" target="_blank">포잉 딜리버리</a></h3>
+                  <p class="detail">
+                    배달 서비스업체인 매시코리아와 연계하여 포잉 업체에서 고객에게 음식을 배달하는 서비스 개발
+                  </p>
+                  <p class="tags">PHP, Codeigniter, jQuery, bootstrap</p>
+                </li>
+                <li>
+                  <h3><a href="#" target="_blank">포잉 구조 개선</a></h3>
+                  <p class="detail">
+                    기존 ROR과 mongodb 구조로 운영중이였던 포잉 서비스를 성능 및 구조개선을 위해 PHP, mysql 구조로 개선하였으며,
+                    결제/환불, 마이페이지, 검색 등을 담당
+                  </p>
+                  <p class="tags">ROR, mongodb, PHP, Codeigniter, mysql</p>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <div class="project-title">퍼블리</div>
+                  <h3><a href="#" target="_blank">백엔드 개발</a></h3>
+                  <div class="detail">
+                    양질의 콘텐츠를 클라우드펀딩을 통해 결제/구독하는 서비스<br>
+                    비상주 프리렌서로 백엔드 전체를 담당하여 AWS를 이용한 서버 구축, RESTful API, 결제 PG연동, admim 페이지 개발
+                  </div>
+                  <p class="tags">AWS(EC2, S3, CloudFront, Route53, RDS, SES), mailchimp, PHP, Codeigniter, jQuery, bootstrap, ckeditor</p>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <div class="project-title">티켓몬스터</div>
+                  <h3><a href="#" target="_blank">EAN 호텔 예약 연동</a></h3>
+                  <p class="detail">
+                    Expedia와 연계하여 호텔딜 등록
+                  </p>
+                  <p class="tags">PHP, Codeigniter, jQuery, bootstrap</p>
+                </li>
+                <li>
+                  <h3><a href="#" target="_blank">TPIN 프로젝트</a></h3>
+                  <p class="detail">
+                    개별 상품을 고유하게 인지할 수 있는 상품코드 및 상품의 속성(Spec)을 관리할 수 있는
+플랫폼 개발
+                  </p>
+                  <p class="tags">Java(spring), AngularJs, jQuery, CouchBase</p>
+                </li>
+                <li>
+                  <h3><a href="#" target="_blank">파트너센터</a></h3>
+                  <p class="detail">
+                    파트너센터에서 직접 딜을 등록할 수 있는 페이지, 지원센터 개발 및 운영
+                  </p>
+                  <p class="tags">PHP, Codeigniter, jQuery, bootstrap</p>
+                </li>
+                <li>
+                  <h3><a href="#" target="_blank">딜 등록 간소화</a></h3>
+                  <p class="detail">
+                    복잡하고 입력해야할께 많은 딜 등록 절차를 엑셀 업로드 및 간소화를 통해 절차를 줄여줄 수 있는 새로운 딜 관리 개발 및 운영
+                  </p>
+                  <p class="tags">PHP, Codeigniter, jQuery, bootstrap</p>
+                </li>
+                <li>
+                  <h3><a href="#" target="_blank">티몬 결제 시스템</a></h3>
+                  <p class="detail">
+                    티몬의 결제를 담당하여 kcp, danal, inicis, lgu+ 등의 PG를 연동 및 다원화 개발
+                  </p>
+                  <p class="tags">PHP, Codeigniter, jQuery, bootstrap</p>
+                </li>
+                <li>
+                  <h3><a href="#" target="_blank">티몬 구조 개선</a></h3>
+                  <p class="detail">
+                    기존 파이선/장고 기반에서 PHP로 전체 구조 개선 프로젝트에 참여
+                  </p>
+                  <p class="tags">PHP, Codeigniter, mysql</p>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <div class="project-title">미람에스앤씨</div>
+                  <h3><a href="#" target="_blank">와이즈넛 검색엔진 솔루션</a></h3>
+                  <p class="detail">
+                    와이즈넛 공공 솔루션 개발팀에 속해 검색엔진 솔루션을 이용한 통합검색 시스템 협의 및 커스터마이징<br>
+                    서울시청, 국토해양부, 과학창의제단, 대통령기록관, 통계청, 공무원연금공단 등 공공기업 통합검색 개발
+                  </p>
+                  <p class="tags">Server(windows/linux), WAS(tomcat, jeus, weblogic), Java(spring, ibatis), 전자정부프레임웍</p>
                 </li>
               </ul>
             </div>
           </section><!-- project -->
+          <section class="resume-item license">
+            <div class="inner">
+              <h2>자격증</h2>
+              <ul>
+                <li>
+                  <h3>정보처리기사</h3>
+                  <h4 class="organization">한국산업인력공단</h4>
+                  <span class="date">2009.06</span>
+                </li>
+                <li>
+                  <h3>SCJP(Sun Certified Java Programmer)</h3>
+                  <h4 class="organization">SUN</h4>
+                  <span class="date">2008.11</span>
+                </li>
+                <li>
+                  <h3>웹디자인기능사</h3>
+                  <h4 class="organization">한국산업인력공단</h4>
+                  <span class="date">2006.12</span>
+                </li>
+                <li>
+                  <h3>컴퓨터활용능력 1급</h3>
+                  <h4 class="organization">대한상공회의소</h4>
+                  <span class="date">2005.05</span>
+                </li>
+                <li>
+                  <h3>컴퓨터그래픽스운용기능사</h3>
+                  <h4 class="organization">한국산업인력공단</h4>
+                  <span class="date">2001.07</span>
+                </li>
+                <li>
+                  <h3>워드프로세서 1급</h3>
+                  <h4 class="organization">대한상공회의소</h4>
+                  <span class="date">2000.05</span>
+                </li>
+              </ul>
+            </div>
+          </section>
 
-          <!-- skill -->
+          <!-- skill
           <section class="resume-item skill">
             <div class="inner">
               <h2>Skill</h2>
               <ul>
-                <!-- list example
-                <li>
-                  <h3>Your Skill Name</h3>
-                  <div class="skill-bar">
-                    <span class="bar" style="width: Percentage% ;"></span>
-                  </div>
-                </li>
-                -->
                 <li>
                   <h3>Master</h3>
                   <div class="skill-bar">
@@ -190,15 +312,16 @@
                 </li>
               </ul>
             </div>
-          </section><!-- skill -->
+          </section>
+           --><!-- skill -->
 
         </div>
       </section><!-- main -->
 
-      <!-- footer -->
+      <!-- footer
       <footer>
-          © 2016 <a href="https://github.com/dhparkdh" target="-_blank">dhpark</a>. All rights reserved.
-      </footer><!-- footer -->
+          © 2017 <a href="#" target="-_blank">park myeong hark</a>. All rights reserved.
+      </footer> --><!-- footer -->
 
     </div>
   </body>

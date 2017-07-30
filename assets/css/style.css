@@ -10,7 +10,7 @@ body {
 .resume-wrapper {
   position: relative ;
   width: 960px ;
-  margin: 30px auto 60px ;
+  margin: 0 auto;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   background: #fff ;
 }
@@ -19,7 +19,7 @@ body {
 /* header */
 header {
   position: relative ;
-  padding: 30px ;
+  padding: 50px ;
   border-bottom: 1px solid #ededed ;
 }
 header h1 {
@@ -130,7 +130,7 @@ header .contact-container .contact-list li span {
 }
 #main ul li {
   position: relative ;
-  margin: 0 0 30px ;
+  margin: 0 0 20px ;
 }
 
 
@@ -157,6 +157,9 @@ header .contact-container .contact-list li span {
 
 
 /* project */
+.project ul {
+  margin-bottom: 40px;
+}
 .project ul li {
   font-size: 0 ;
   line-height: 16px ;
@@ -170,12 +173,33 @@ header .contact-container .contact-list li span {
 .project .detail {
   display: block ;
   font-size: 14px ;
+  line-height: 150%
 }
 .project .tags {
   font-size: 12px ;
   color: #999 ;
 }
+.project .project-title {
+  font-size: 24px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  padding: 5px;
+  border-left: 5px solid #EEE;
+  height: 28px;
+}
 
+/* licence */
+.license .date {
+  position: absolute ;
+  top: 5px ;
+  right: 0 ;
+  color: #bbb ;
+  font-size: 12px ;
+}
+.license .organization {
+  font-size: 12px ;
+  color: #999 ;
+}
 
 /* skill */
 .skill {
